@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  polygonizer: &gdal_polygonizer
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    image: gdal_polygonizer
+    volumes:
+      - .:/app
+    command: python3
