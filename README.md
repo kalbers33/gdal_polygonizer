@@ -1,2 +1,2 @@
 # gdal_polygonizer
-Project to make shape files from raster images)
+Project to make shape files from raster images
